@@ -1,0 +1,16 @@
+ ●   What is Emmet? - Emmet are abbreviations which get converted into code blocks in HTML and CSS.
+
+ ●   Difference between a Library and Framework? A Library is a minimum code which can solve a generic problem, It is more likely a plug and play while framework comes with all the power in itself like routing, testing etc
+ 
+ ●   What is CDN? Why do we use it? A content delivery network (CDN) refers to a group of servers which are present at different geographical locations but work together to provide fast delivery of Internet content.
+ 
+ ●   Why is React known as React? 
+
+ ●   What is crossorigin in script tag? crossorigin is used when the domain of script where it is present like (https://path1/script.js) is different from the domain on which this script is included like (https://path2/index.html). crossorigin make sure that there is no CORS error given.
+
+ ●   What is diference between React and ReactDOM React is core module or package while ReactDOM is related to web development
+
+ ●   What is difference between react.development.js and react.production.js files via CDN? 
+ Later one is for production application where the overall bundle size of app is reduced because of minified files.
+ ●   What is async and defer? - see my Youtube video ;) 
+ Async - HTML parsing 
