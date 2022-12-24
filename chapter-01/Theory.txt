@@ -12,6 +12,7 @@
 
  ●   What is difference between react.development.js and react.production.js files via CDN? 
  Later one is for production application where the overall bundle size of app is reduced because of minified files.
+ 
  ●   What is async and defer? - see my Youtube video ;) 
  Async - HTML parsing blocked only when script is getting executed. Script is downloaded asynchronously.
  Defer - HTML parsing never blocked ! Script fetched in parallel and scripts executed only when parsing is completed !
