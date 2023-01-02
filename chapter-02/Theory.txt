@@ -1,0 +1,74 @@
+ ●   - What is `NPM`? 
+    NPM is a beautiful way which helps you to manage the packages in project !
+
+ ●   - What is `Parcel/Webpack`? Why do we need it? 
+    Parcel is a bundler which comes with lot of powers out of the box like minification, HMR, cleaning of code, caching etc.
+    You can install it as a dependency in project with command npm install -D parcel
+
+ ●   - What is `.parcel-cache` 
+    Caching store where information of project is stored when parcel builds it 
+    It is to optimise the build time because second time onwards it does not need to
+    re=parse and re-analyse everything from scratch !
+
+ ●   - What is `npx` ? 
+    Command to execute something !
+
+ ●   - What is difference between `dependencies` vs `devDependencies` 
+    Dependencies are packages/libraries which are part of your project in some way !
+    Now difference between dev dependencies and dependencies is that dev dependencies 
+    are only part of development but not in production.
+
+ ●   - What is Tree Shaking? 
+    Removal of code which is not being used in project and it relies on the import/export 
+    statements to detect of code modules are exported and imported !
+    
+ ●   - What is Hot Module Replacement? 
+    HMR is a technique when your server will reload automatically when you saves any changes in 
+    code ! It is done with the help of file watchers.
+
+
+ ●   - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your 
+ own words. 
+
+    Minification - Reduces size of bundle which actually helps in reducing the overall size deployed 
+    to browser !
+    Image optimisation - Rare, image optimisation is very important and many devs work on this
+    to optimise the performance ! Parcel give this out of the box.
+    Multiple Port Number support - You can start and listen to server at different ports at the 
+    same time !
+
+
+ ●   - What is `.gitignore`? What should we add and not add into it? 
+    There are sometime when you do not need to commit every file to git which unnecessarily
+    increases the size of project, so to exclude files/folder you can actually get it added to
+    .gitignore file and it will be skipped while adding in changes !
+
+ ●   - What is the difference between `package.json` and `package-lock.json` 
+    package.json depicts your overall project, it is the heart of project. It contains meta data, 
+    scripts and more importantly it has section of dependencies where it contains packages with version
+    number on which project runs.
+
+    lock.json is a snapshot when packages are installed and it tells the current 
+    version of package used in production. It also make sure that no inconsistency happens in 
+    package versions !
+
+ ●   - Why should I not modify `package-lock.json`? 
+    Lock file contains the current version of package used in production and it should not be modified
+
+ ●   - What is `node_modules` ? Is it a good idea to push that on git? 
+
+    Node modules are packages which are needed for your project in order to run !
+    No you should not push it on git because of their size and number !
+    
+ ●   - What is the `dist` folder? 
+
+    dist folder is basically a directory created after your project is built and all the files
+    deployed on browser will be there.
+
+ ●   - What is `browserlists` 
+    The browserslist configuration controls the outputted JavaScript so that the emitted 
+    code will be compatible with the browsers specified.
+
+ Read about dif bundlers: vite, webpack, parcel 
+ ●   Read about:  ^ - caret and ~ - tilda 
+ ●   Read about Script types in html (MDN Docs)
